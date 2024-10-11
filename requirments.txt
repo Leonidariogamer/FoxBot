@@ -1,0 +1,5 @@
+discord.py  # Discord bot library
+deep-translator==1.11.4  # Updated to the latest available version
+langdetect==1.0.9  # Detect language of the input text
+requests==2.31.0  # For making HTTP requests (e621 API)
+mariadb==1.1.6  # MariaDB connector for Python
