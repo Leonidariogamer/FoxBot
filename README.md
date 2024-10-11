@@ -9,25 +9,44 @@ Discord Bot is a customizable bot built with the Discord.py library, providing v
 
 # Features:
 Moderation: Issue warnings, ban, kick, timeout, and manage user infractions.
+
 Utility Commands: Snipe deleted messages, translate text, and more.
+
 Fun Commands: Fetch random posts from e621.net and steal emojis or stickers.
+
 Custom Help: A neatly organized help command that categorizes commands into different sections.
+
 Rich Presence: Displays custom bot status with the number of servers it is helping in, including optional streaming presence. (currently setup to cringe people with a button to KSI - Thick of it)
+
+Voice Channel activity: When the bot gets online it will connect to a voice channel (configurable in ```status_tasks.py```)
+
 Features Breakdown:
+
 Moderation Commands:
 
+
 !warn <user> <reason>: Warn a member with a reason.
+
 !unwarn <user> <warning_id>: Remove a specific warning based on the warning ID.
+
 !ban <user> <reason>: Ban a user from the server.
+
 !kick <user> <reason>: Kick a user from the server.
+
 !timeout <user> <duration>: Temporarily timeout a user.
+
 !untimeout <user>: Remove timeout from a user.
+
 Utility Commands:
 
 !snipe - Retrieve the last deleted message.
+
 !translate <text> - Translate a message to English.
+
 !help - Display this help message.
+
 !server_settings - Lets you either set a safe tag on e621 for all non NSFW channels and the ability to disable bot announcements
+
 !steal - Steal stickers and emojis from other servers
 
 # SETUP
